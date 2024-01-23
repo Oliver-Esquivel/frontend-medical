@@ -1,0 +1,13 @@
+  /* Ajusta márgenes y padding para evitar superposiciones */
+  .app-container {
+    display: flex;
+    margin-left: 250px;
+    /* Ajusta según el ancho de la barra lateral */
+  }
+
+  .content-container {
+    flex-grow: 1;
+    padding: 30px;
+  }
+
+  /* Otros estilos necesarios... */

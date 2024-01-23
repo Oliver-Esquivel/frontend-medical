@@ -1,0 +1,59 @@
+.doc_img {
+    background-image: url(../images/1416538.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    height: 80vh;
+    backdrop-filter: blur(4px) saturate(200%);
+    -webkit-backdrop-filter: blur(4px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.51);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    text-align: center;
+}
+
+.user {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 40px;
+    margin: 30px;
+}
+
+.login_data {
+    border-radius: 5px;
+    height: 6vh;
+    width: 50vh;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.email,
+.password {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.error {
+    color: rgb(255, 255, 255);
+    /* Puedes cambiar 'red' por el color que prefieras */
+    font-size: 14px;
+    /* Puedes ajustar el tamaño de la fuente según tus preferencias */
+    /* Otros estilos que desees aplicar a los mensajes de error */
+}
+
+/* Media query para ajustes adicionales en pantallas más pequeñas */
+@media only screen and (max-width: 600px) {}

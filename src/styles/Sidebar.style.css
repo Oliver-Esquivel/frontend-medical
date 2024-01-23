@@ -1,0 +1,76 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100vh;
+  background-color: #ebe9e9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.img-logo {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.options div {
+  padding: 15px;
+  width: 100vh;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.options div {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.options div:hover {
+  transition: background-color 0.9s;
+  background-color: rgb(255, 241, 252);
+  /* Ajusté la duración de la transición a 0.3 segundos */
+}
+
+.group {
+  margin-bottom: 10px;
+}
+
+.group-title {
+  width: 10vh;
+  color: #000000;
+  margin-bottom: 10px;
+  background-color: rgb(253, 255, 255);
+}
+
+
+/* Asegúrate de agregar estilos adicionales según tus necesidades */
+/* Estilos adicionales para ajustar el tamaño de los iconos y colocarlos al lado de las opciones */
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.option-icon {
+  width: 20%;
+  /* Tamaño del icono */
+  height: 15%;
+  margin-right: 10px;
+
+}
